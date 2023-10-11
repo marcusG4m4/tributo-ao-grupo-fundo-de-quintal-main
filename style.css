@@ -1,6 +1,4 @@
-@media only screen and (max-width: 600px) {
-  /* Estilos para telas menores que 600 pixels */
-}
+
 html {
     font-family: helvetica;
     background-color: #ddd;
@@ -14,9 +12,11 @@ html {
     border-radius: 2px;
   }
   
-  .bold {
+  .body {  
     font-weight: bold;
     font-style: italic;
+    margin: 0;
+    padding: 0;
   }
   
   .header {
@@ -64,4 +64,15 @@ html {
     font-weight: bold;
     text-align: center;
   }
-  
+
+ /* Media Query para telas menores (ex: smartphones) */
+@media only screen and (max-width: 600px) {
+  header, footer {
+      background-color: #555;
+  }
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
