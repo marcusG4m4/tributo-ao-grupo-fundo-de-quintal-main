@@ -1,3 +1,6 @@
+@media only screen and (max-width: 600px) {
+  /* Estilos para telas menores que 600 pixels */
+}
 html {
     font-family: helvetica;
     background-color: #ddd;
